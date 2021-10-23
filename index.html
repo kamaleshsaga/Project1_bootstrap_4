@@ -12,9 +12,11 @@
     <link rel="stylesheet" href="./css/style.css">
 
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="./js/script.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script> -->
     <title>Colan Infotech Assestment</title>
 </head>
 
@@ -30,26 +32,26 @@
             <div class="collapse navbar-collapse" id="collapsibleNavbar">
                 <ul class="navbar-nav custom-navbar">
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Home</a>
+                        <a class="nav-link active" href="#home">Home</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">About</a>
+                        <a class="nav-link" href="#about">About</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Services</a>
+                        <a class="nav-link" href="#service">Services</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Contact</a>
+                        <a class="nav-link" href="#contact">Contact</a>
                     </li>
                 </ul>
             </div>
         </nav>
-        <div class="container custom-top">
+        <div class="container custom-top" id="home">
 
             <div class="row">
                 <div class="col-md-6 new-section">
                     <h2>Landing template for Startups</h2>
-                    <p> Our landing page template works for all the devices,
+                    <p class="hero_text"> Our landing page template works for all the devices,
                         so you only have to setup it once,and get beautiful results forever.
                     </p>
                     <button class="btn btn-danger"> Pricing and Plan</button>
@@ -60,11 +62,11 @@
                     </div>
                 </div>
             </div>
-            <div class="row customed">
+            <div class="row customed" id="about">
                 <div class="heading display-5 pb-5">
-                    Pricing
+                    Feature
                 </div>
-                <div class="card-deck width=" 20rem">
+                <div class="card-deck">
                     <div class="card bg-transparent shadow p-3 mb-5 bg-white rounded">
                         <i class="card-img-top fas fa-square text-center text-danger pt-5 display-3"></i>
                         <div class="card-title text-center text-info font-weight-bold">
@@ -108,7 +110,7 @@
                 </div>
                 <hr />
             </div>
-            <div class="custom-layout">
+            <div class="custom-layout" id="service">
                 <div class="heading text-center display-4 pb-5">
                     Pricing
                 </div>
@@ -191,7 +193,7 @@
                 </div>
             </div>
         </div>
-        <footer class="custom_footer">
+        <footer class="custom_footer" id="contact">
             <div class="row footer_details">
                 <hr class="footer_line"/>
                 <div class="col-md-4">
@@ -219,6 +221,9 @@
             </div>
         </footer>
     </div>
+    <script>
+      
+        </script>
 </body>
 
 </html>
